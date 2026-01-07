@@ -1,1 +1,161 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><link rel="apple-touch-icon" href="/logo192.png"/><link rel="manifest" href="/manifest.json"/><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet"><title>React App</title><script defer="defer" src="/static/js/main.88cda6cd.js"></script><link href="/static/css/main.d4feaca7.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parthasarathy Bana | Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">Partha</a>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero hidden">
+            <div class="container hero-container">
+                <div class="hero-bg-glow"></div>
+                <div class="hero-content">
+                    <h1>Robotics Engineer &<br>Creative Soul</h1>
+                    <p>Building the future with code and gears. Welcome to my colorful digital playground.</p>
+                    <a href="#projects" class="btn">View My Work</a>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/profile.jpg" alt="Parthasarathy Bana" class="profile-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <div class="container hidden">
+                <h2>About Me</h2>
+                <div class="card">
+                    <p>
+                        Hello! I'm Parthasarathy Bana, a Robotics Engineer by profession and a badminton enthusiast at
+                        heart.
+                        I love solving complex problems, whether it's programming a robot arm or smashing a shuttlecock.
+                        I'm passionate about technology, design, and continuous learning.
+                    </p>
+                    <br>
+                    <a href="assets/resume.pdf" target="_blank" class="btn btn-secondary">Download Resume</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- How Can I Help You Section -->
+        <section id="help">
+            <div class="container">
+                <h2 style="font-size: 3rem; margin-bottom: 20px;">How Can I Help <span
+                        class="highlight-circle">You?</span></h2>
+                <div class="help-grid">
+                    <!-- Standard Card -->
+                    <div class="help-card hidden">
+                        <div class="help-icon">📺</div>
+                        <h3>Grow a YouTube Channel</h3>
+                        <p>Learn how to start and grow a life-changing YouTube channel based on my years of experience.
+                        </p>
+                        <a href="#" class="card-link">Get started →</a>
+                    </div>
+                    <!-- Yellow Card -->
+                    <div class="help-card yellow hidden">
+                        <div class="help-icon">⚙️</div>
+                        <h3>Be More Productive</h3>
+                        <p>Learn how to manage your time and achieve your goals, while enjoying the journey along the
+                            way.</p>
+                        <a href="#" class="card-link">Get started →</a>
+                    </div>
+                    <!-- Standard Card -->
+                    <div class="help-card hidden">
+                        <div class="help-icon">💰</div>
+                        <h3>Build an Online Business</h3>
+                        <p>Turn your specialized knowledge into a sustainable online business.</p>
+                        <a href="#" class="card-link">Get started →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <div class="container">
+                <h2 class="hidden">My Projects</h2>
+                <div class="grid">
+                    <!-- Project 1: Video Showcase -->
+                    <div class="card hidden">
+                        <h3>Robotic Arm Control</h3>
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=Placeholder"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <p>
+                            A precise control system for a 6-DOF robotic arm using inverse kinematics.
+                            Watch the demo to see it perform complex pick-and-place tasks with high accuracy.
+                        </p>
+                    </div>
+                    <!-- Project 2: WebP & Details -->
+                    <div class="card hidden">
+                        <h3>AI Badminton Tracker</h3>
+                        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTJjZ.../placeholder.webp"
+                            alt="Badminton Tracking Animation" class="project-media"
+                            onerror="this.src='https://placehold.co/600x400/222/fff.webp?text=WebP+Animation'">
+                        <p>Computer vision system to track shuttlecock trajectory in real-time.</p>
+                        <ul class="project-details">
+                            <li>Built with Python & OpenCV</li>
+                            <li>98% tracking accuracy</li>
+                            <li>Real-time coaching feedback</li>
+                        </ul>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="card hidden">
+                        <h3>Project Three</h3>
+                        <p>A mobile-first responsive website for a local non-profit organization.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="container hidden">
+                <h2>Get In Touch</h2>
+                <div class="card" style="text-align: center;">
+                    <p style="margin-bottom: 20px;">
+                        Interested in collaborating? Feel free to drop me a message!
+                    </p>
+                    <a href="mailto:example@email.com" class="btn">Contact Me</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer style="text-align: center; padding: 20px; color: #888; font-size: 0.9rem;">
+        <p>&copy; 2026 Partha. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
